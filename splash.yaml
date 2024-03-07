@@ -1,0 +1,13 @@
+flutter_native_splash:
+  color: "#FFFFFFA9"
+  color_dark: "#27272727"
+  image: assets\logos\signupside.png
+  image_dark: assets\logos\itsalogowhite.png
+
+  # andriod_12:
+  #   color: "#FFFFFF"
+  #   color_dark: "#27272727"
+  #   image: assets\logos\signupside.png
+  #   image_dark: assets\logos\itsalogowhite.png
+
+  # web: false
