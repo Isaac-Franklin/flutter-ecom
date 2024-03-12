@@ -1,3 +1,4 @@
+import 'package:ecomapp/feature/authentication/controlleronboarding/onboardcontroller.dart';
 import 'package:ecomapp/utils/constants/colors.dart';
 import 'package:ecomapp/utils/device/deviceutility.dart';
 import 'package:ecomapp/utils/helpers/helperfunctions.dart';
@@ -12,13 +13,15 @@ class OnboardNavigator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final dark = THelperFunctions.isDarkMode(context);
+    final controller = OnboardingController.instance;
 
     return Positioned(
       bottom: TDeviceUtils.getBottomNavigationBarHeight() + 25,
       // left: TDeviceUtils.getScreenWidth(context) / 2.4,
       left: 20,
       child: SmoothPageIndicator(
-        controller: PageController(),
+        controller: controller.pageController,
+        onDotClicked: controller.dotNavigationClick,
         count: 3,
         effect: ExpandingDotsEffect(
           activeDotColor: dark ? TColors.light : TColors.dark,
