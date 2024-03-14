@@ -1,3 +1,4 @@
+import 'package:ecomapp/utils/device/deviceutility.dart';
 import 'package:ecomapp/utils/theme/custom_theme/appbartheme.dart';
 import 'package:ecomapp/utils/theme/custom_theme/bottomsheettheme.dart';
 import 'package:ecomapp/utils/theme/custom_theme/checkboxtheme.dart';
@@ -25,6 +26,7 @@ class TAppTheme {
     inputDecorationTheme: TTextFieldTheme.lightTextFieldTheme,
     appBarTheme: TAppBarTheme.lightAppBarTheme,
     chipTheme: TChipTheme.lightChipTheme,
+    // deviceUtils: TDeviceUtils
   );
 
   static ThemeData darkTheme = ThemeData(

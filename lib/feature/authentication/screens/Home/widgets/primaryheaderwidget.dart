@@ -18,7 +18,7 @@ class TPrimaryHeaderContainerWidget extends StatelessWidget {
         padding: const EdgeInsets.all(0),
         // Stack property starts here
         child: SizedBox(
-          height: 400,
+          height: 320,
           child: Stack(
             children: [
               // First circle shape

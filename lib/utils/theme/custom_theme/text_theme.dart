@@ -59,7 +59,7 @@ class TTextTheme {
       ),
       labelLarge: const TextStyle().copyWith(
         fontSize: 12,
-        fontWeight: FontWeight.normal,
+        fontWeight: FontWeight.bold,
         color: Colors.black,
         fontFamily: 'Poppins',
       ),
@@ -122,7 +122,7 @@ class TTextTheme {
     ),
     labelLarge: const TextStyle().copyWith(
       fontSize: 12,
-      fontWeight: FontWeight.normal,
+      fontWeight: FontWeight.bold,
       color: Colors.white,
       fontFamily: 'Poppins',
     ),
